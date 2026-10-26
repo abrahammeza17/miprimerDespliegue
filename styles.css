@@ -153,6 +153,31 @@ a:hover {
   color: var(--color-texto-suave);
 }
 
+/* ===== Tarjeta de Nombre Apellido ===== */
+.fatima-practica {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: grey;
+  margin: 40px 0;
+  box-shadow: var(--sombra);
+
+}
+
+.full-nombre {
+  font-size: clamp(0.5rem, 5vw, 1rem);
+  line-height: 0.9;
+  margin-bottom: 1rem;
+}
+
+.fatima-curso {
+  background: var(--color-primario);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  text-align: center;
+  padding: 3px;
+}
+
 /* ===== Footer ===== */
 .footer {
   background: #111827;
